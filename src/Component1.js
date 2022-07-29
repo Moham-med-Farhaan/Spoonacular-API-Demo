@@ -14,7 +14,7 @@ function Component1() {
 
   const getRecipes = async () => {
     const api = await fetch(
-      `https://api.spoonacular.com/recipes/random?apiKey=20ff77549bd04728bdd6facf94ee6e1b&number=10&tags=${query}`
+      `https://api.spoonacular.com/recipes/random?apiKey=20ff77549bd04728bdd6facf94ee6e1b&number=10&tags=${query.toLowerCase()}`
     );
     const data = await api.json();
     console.log(data.recipes);

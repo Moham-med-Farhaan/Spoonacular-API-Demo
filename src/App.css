@@ -16,21 +16,21 @@
   width:50%;
   height:5vh;
   border:none;
-  padding :7px;
+  padding :.5rem;
   background-color: #cdd1cc;
   color:black;
   font-size: larger;
-  margin-left: 30px;
+  margin-left: 3rem;
 
 }
 .search-button{
  
-  width:7vw;
+ width:7vw;
   height: 7vh;
   color:#2C3333;
-  padding:10px 20px;
+  padding:.5rem 1rem;
   font-size: larger;
-  margin-left: 20px;
+  margin-left: 2rem;
   
 
 }
@@ -51,7 +51,11 @@
   background-color: white;
   align-items: center;
   min-width: 20%;
-
-
-  
 }
+.card img{
+
+  border-radius: 2rem;
+  height: 50vh;
+  width:80vh;
+}
+
